@@ -4,6 +4,23 @@
 
 ![GitHub](https://img.shields.io/github/license/mayank-singh-chauhan0/Solsphere.ai_Assignment?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mayank-singh-chauhan0/Solsphere.ai_Assignment?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
+
+## Table of Contents
+
+- [🚀 Project Overview](#-project-overview)
+- [🎯 Features](#-features)
+- [📦 Architecture & File Structure](#-architecture--file-structure)
+- [⚙️ Prerequisites](#️-prerequisites)
+- [🔧 Installation & Setup](#-installation--setup)
+- [▶️ Running the Project](#️-running-the-project)
+- [🖼️ Screenshots](#️-screenshots)
+- [📖 Usage](#-usage)
+- [❓ Troubleshooting](#-troubleshooting)
+- [🤝 Contributing](#-contributing)
+- [📞 Contact & Support](#-contact--support)
+- [📄 License](#-license)
 
 ---
 
@@ -33,6 +50,15 @@ This project provides:
 
 ## 📦 Architecture & File Structure
 
+### Data Flow
+
+1. **Collection**: The Python utility collects system metrics from the local machine.
+2. **Processing**: The utility compares current metrics with previous values to detect changes.
+3. **Transmission**: When changes are detected, the utility sends an HTTP POST to the backend API.
+4. **Storage**: The Flask backend stores the latest state of each machine in memory.
+5. **Retrieval**: The React frontend periodically polls the API for updated data.
+6. **Visualization**: The dashboard renders the data in a sortable, filterable table format.
+
 ```
 project/
 ├── utility/             # Python client utility
@@ -61,6 +87,14 @@ project/
 * **Python 3.7+** (utility & backend)
 * **Node.js 14+** and **npm** (frontend)
 * Git (optional, for cloning repository)
+
+### OS Compatibility Matrix
+
+| Component | Windows | macOS | Linux |
+|-----------|---------|-------|-------|
+| Utility   | ✅      | ✅    | ✅    |
+| Backend   | ✅      | ✅    | ✅    |
+| Frontend  | ✅      | ✅    | ✅    |
 
 ---
 
@@ -160,9 +194,36 @@ Open **three separate terminals** (or split panes):
 
 ---
 
+## ❓ Troubleshooting
+
+### Common Issues
+
+1. **Utility not connecting to backend**
+   - Verify the backend is running on the expected port
+   - Check network connectivity and firewall settings
+   - Confirm the API URL in the utility matches the running backend
+
+2. **Dashboard not showing data**
+   - Ensure the backend API is running and accessible
+   - Check browser console for any CORS or network errors
+   - Verify the API base URL in the frontend configuration
+
+3. **OS-specific metric collection errors**
+   - Windows: Ensure PowerShell is available for certain system queries
+   - macOS: Some metrics may require admin privileges
+   - Linux: Different distributions may require different commands
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Contact & Support
+
+- 📧 **Email**: [mayank@example.com](mailto:mayank@example.com)
+- 🐙 **GitHub**: [Create an issue](https://github.com/mayank-singh-chauhan0/Solsphere.ai_Assignment/issues)
+- 🌐 **Portfolio**: [Mayank Singh Chauhan](https://github.com/mayank-singh-chauhan0)
 
 ## 📄 License
 
