@@ -215,21 +215,5 @@ Open **three separate terminals** (or split panes):
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Contact & Support
-
-- 📧 **Email**: [mayank@example.com](mailto:mayank@example.com)
-- 🐙 **GitHub**: [Create an issue](https://github.com/mayank-singh-chauhan0/Solsphere.ai_Assignment/issues)
-- 🌐 **Portfolio**: [Mayank Singh Chauhan](https://github.com/mayank-singh-chauhan0)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 <p align="center">Developed with ❤️ by <a href="https://github.com/mayank-singh-chauhan0">Mayank Singh Chauhan</a></p>
 
