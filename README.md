@@ -2,6 +2,9 @@
 
 > A full-stack system health monitoring solution featuring a cross-platform Python utility, a Flask backend API, and a React + Tailwind CSS admin dashboard (Vite).
 
+![GitHub](https://img.shields.io/github/license/mayank-singh-chauhan0/Solsphere.ai_Assignment?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/mayank-singh-chauhan0/Solsphere.ai_Assignment?style=flat-square)
+
 ---
 
 ## 🚀 Project Overview
@@ -12,18 +15,19 @@ This project provides:
 2. **Backend API (Flask)**: A simple RESTful service that receives reports from the utility and stores the most recent state per machine in memory. It exposes endpoints to retrieve all machine data.
 3. **Admin Dashboard (React + Tailwind CSS)**: An interactive web interface (built with Vite) that displays real-time system health data, allows filtering/sorting, supports CSV export, and features a light/dark mode toggle.
 
-![Architecture Diagram](docs/images/architecture.png)
+<!-- Architecture diagram needs to be updated once proper path is confirmed -->
+<!-- ![Architecture Diagram](docs/images/architecture.png) -->
 
 ---
 
 ## 🎯 Features
 
-* **Cross-Platform Utility**: Works on Windows, macOS, and Linux.
-* **Efficient Reporting**: Only sends data when metrics change, reducing network usage.
-* **Real-Time Dashboard**: Displays latest metrics for all machines.
-* **Light/Dark Mode**: Toggle between themes for comfortable viewing.
-* **Filtering & Sorting**: Filter by OS and sort on any metric.
-* **CSV Export**: Download the current table view as a CSV file.
+* **✅ Cross-Platform Utility**: Works on Windows, macOS, and Linux.
+* **📊 Efficient Reporting**: Only sends data when metrics change, reducing network usage.
+* **⚡ Real-Time Dashboard**: Displays latest metrics for all machines.
+* **🌓 Light/Dark Mode**: Toggle between themes for comfortable viewing.
+* **🔍 Filtering & Sorting**: Filter by OS and sort on any metric.
+* **📁 CSV Export**: Download the current table view as a CSV file.
 
 ---
 
@@ -65,8 +69,8 @@ project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/system-health-dashboard.git
-cd system-health-dashboard
+git clone https://github.com/mayank-singh-chauhan0/Solsphere.ai_Assignment.git
+cd Solsphere.ai_Assignment
 ```
 
 ### 2. Backend (Flask API)
@@ -136,8 +140,15 @@ Open **three separate terminals** (or split panes):
 ---
 
 ## 🖼️ Screenshots
-![alt text](image-1.png)
-![alt text](image-2.png)
+
+### Dashboard in Light Mode
+![Dashboard in Light Mode](docs/images/image-1.png)
+*The dashboard showing system health metrics with light theme enabled, displaying system health status of multiple machines with filtering and sorting capabilities.*
+
+### Dashboard in Dark Mode
+![Dashboard in Dark Mode](docs/images/image-2.png)
+*The same dashboard with dark theme enabled, providing better visibility in low-light environments while maintaining all functionality.*
+
 ---
 
 ## 📖 Usage
@@ -148,3 +159,16 @@ Open **three separate terminals** (or split panes):
 * **Theme**: Toggle the sun/moon icon to switch themes.
 
 ---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">Developed with ❤️ by <a href="https://github.com/mayank-singh-chauhan0">Mayank Singh Chauhan</a></p>
+
